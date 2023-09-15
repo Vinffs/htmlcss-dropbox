@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+	--color-hero:#b8d1e5;
+	--color-black:#000000;
+	--color-white:#ffffff;
+	--color-button:#0061ff;
+    --color-box-1: #a2d39b;
+    --color-box-2: #61092C;
+    --color-box-3: #b4d0e7;
+    --color-box-4: #FE1D1D;
+    --color-box-5: #F4F4F4;
+    --color-box-6: #D50120;
+    --color-box-7: #B4D0E6;
+    --color-box-8: #0E2581;
+    --color-box-9: #FED831;
+}
+
+
+
+
+
+
+
+
