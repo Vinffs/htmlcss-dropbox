@@ -29,6 +29,15 @@ body{
     font-family: 'Space Grotesk', sans-serif;
 }
 
+.hero{
+    background-color: var(--color-hero);
+}
+
+.hero-container, .hero-title{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 /* flex-utilities */
 
 .flex{
@@ -46,6 +55,23 @@ body{
 .content-center{
     align-content: center;
 }
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.f-end{
+    justify-content: flex-end;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
 
 /* header*/
 
@@ -66,6 +92,12 @@ header{
 
 .blue-button{
     background-color: var(--color-button);
+    color: var(--color-white);
+
+}
+
+.blue-button.action{
+        padding: 10px 15px;
 }
 
 .black-text *{
@@ -75,3 +107,44 @@ header{
 .white-text{
     color: var(--color-white);
 }
+
+/* hero */
+
+.hero{
+    padding-top: 50px;
+}
+
+.hero-title{
+    font-size: 4.5em;
+    line-height: 1.2em;
+    padding-right: 100px;
+}
+
+.hero-paragraph{
+    text-align: left;
+}
+
+.hero-img-container{
+    max-width: 70%;
+    position: relative;
+    transform: translate(0, 70px);
+}
+
+.hero-img{
+    width: 100%;
+}
+
+.text-box{
+    width: 30%;
+    padding-top: 70px;
+    row-gap: 40px;
+}
+
+.fa-arrow-down{
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+/* main */
+
+
