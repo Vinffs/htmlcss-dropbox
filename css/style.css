@@ -14,7 +14,7 @@
 	--color-black:#000000;
 	--color-white:#ffffff;
 	--color-button:#0061ff;
-    --color-box-1: #a2d39b;
+    --color-box-1: #A2D39B;
     --color-box-2: #61092C;
     --color-box-3: #b4d0e7;
     --color-box-4: #FE1D1D;
@@ -76,8 +76,6 @@ body{
     flex-direction: row;
 }
 
-/* header*/
-
 /* nav */
 
 nav{
@@ -114,7 +112,6 @@ nav{
 .white-text{
     color: var(--color-white);
 }
-
 
 /* hero */
 
@@ -155,7 +152,7 @@ nav{
 
 /* main */
 .wrapper{
-    padding: 150px 50px 150px 50px;
+    padding: 150px 50px 50px 50px;
 }
 
 /* payment option */
@@ -277,6 +274,9 @@ nav{
     padding-bottom: 50px;
 }
 
+.plan-type.h3-team{
+    padding-top: 0;
+}
 
 /* partner */
 
@@ -330,7 +330,7 @@ nav{
 }
 
 .learn-more{
-    margin: 150px 0;
+    margin: 150px 0 0 0;
 }
 
 .learn-more-h2{
@@ -345,4 +345,55 @@ nav{
 }
 
 /* affiliate names */
+
+.affiliate-names{
+    width:calc(100vw - 17px); /* 17px = size scrollbar Y */
+    height: calc((100vw - 17px ) / 3);
+    margin: 100px 0 50px 0;
+}
+
+.right-box, .center-box, .left-box{
+    width: calc(100% / 3);
+}
+
+.box-setup{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+
+}
+
+.logo-box-hover{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo-img{
+    width: 100%;
+}
+.logo-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+
+/* box 1 */
+.box-color-one, .hover-one{
+    background-color: var(--color-box-1);
+}
+
+.box-color-one:hover{
+    background-color: var(--color-box-1);
+    filter: brightness(80%);
+}
+.hover-one:hover{
+    background-color: var(--color-box-1);
+}
+
+/* box 2 */
 
