@@ -16,7 +16,7 @@
 	--color-button:#0061ff;
     --color-box-1: #A2D39B;
     --color-box-2: #61092C;
-    --color-box-3: #b4d0e7;
+    --color-box-3: #0093CE;
     --color-box-4: #FE1D1D;
     --color-box-5: #F4F4F4;
     --color-box-6: #D50120;
@@ -33,7 +33,7 @@ body{
     background-color: var(--color-hero);
 }
 
-.hero-container, .hero-title, .wrapper, .enterprise-box{
+.hero-container, .hero-title, .wrapper, .enterprise-box, .free-trial-section, .faq{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -229,11 +229,18 @@ nav{
 }
 
 .line{
-    margin-right: 210px;
+    margin-right: 80%;
     border-bottom: 1px solid var(--color-light-grey);
     padding-bottom: 30px;
 }
+.line-five{
+    padding-left: 20%;
+    border-bottom: 1px solid var(--color-light-grey);
+}
 
+.row-gap{
+    row-gap: 10%;
+}
 
 .features-title{
     padding-bottom: 20px;
@@ -349,7 +356,7 @@ nav{
 .affiliate-names{
     width:calc(100vw - 17px); /* 17px = size scrollbar Y */
     height: calc((100vw - 17px ) / 3);
-    margin: 100px 0 50px 0;
+    margin: 100px 0 0 0;
 }
 
 .right-box, .center-box, .left-box{
@@ -359,7 +366,11 @@ nav{
 .box-setup{
     width: calc(100% / 2);
     height: calc(100% / 2);
-
+}
+.box-setup-five{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .logo-box-hover{
@@ -371,29 +382,147 @@ nav{
 
 .logo-img{
     width: 100%;
+    filter: invert(100%) sepia(14%) saturate(7500%) hue-rotate(205deg) brightness(113%) contrast(113%);
+
 }
+.logo-img-five{
+    width: 50%;
+}
+
 .logo-box{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
-
+    padding: 50px;
+}
+.logo-box-five{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
 }
 
+/* box colors + hover */
 /* box 1 */
-.box-color-one, .hover-one{
+.box-color-one{
     background-color: var(--color-box-1);
 }
-
 .box-color-one:hover{
-    background-color: var(--color-box-1);
-    filter: brightness(80%);
-}
-.hover-one:hover{
-    background-color: var(--color-box-1);
+    filter: brightness(60%);
 }
 
 /* box 2 */
+.box-color-two{
+    background-color: var(--color-box-2);
+}
+.box-color-two:hover{
+    filter: brightness(60%);
+}
 
+/* box 3 */
+.box-color-three{
+    background-color: var(--color-box-3);
+}
+.box-color-three:hover{
+    filter: brightness(60%);
+}
+
+/* box 4 */
+.box-color-four{
+    background-color: var(--color-box-4);
+}
+.box-color-four:hover{
+    filter: brightness(60%);
+}
+
+/* box 5 */
+.box-color-five{
+    background-color: var(--color-box-5);
+}
+.box-color-five:hover{
+    filter: brightness(60%);
+}
+
+/* box 6 */
+.box-color-six{
+    background-color: var(--color-box-6);
+}
+.box-color-six:hover{
+    filter: brightness(60%);
+}
+
+/* box 7 */
+.box-color-seven{
+    background-color: var(--color-box-7);
+}
+.box-color-seven:hover{
+    filter: brightness(60%);
+}
+
+/* box 8 */
+.box-color-eight{
+    background-color: var(--color-box-8);
+}
+.box-color-eight:hover{
+    filter: brightness(60%);
+}
+
+/* box 9 */
+.box-color-nine{
+    background-color: var(--color-box-9);
+}
+.box-color-nine:hover{
+    filter: brightness(60%);
+}
+
+/* free trial */
+.trial{
+    background-color: var(--color-hero);
+}
+.free-trial-section{
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: baseline;
+}
+.trial-h2{
+    font-size: 2.7em;
+    font-weight: bolder;
+    color: #61082B;
+}
+.left-box-trial{
+    width: 60%;
+    margin: 10%;
+}
+.right-box-trial{
+    width: 40%;
+}
+.button-text{
+    padding: 10px 20px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+/* faq section */
+.faq{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.faq-setup{
+    margin-left: 10%;
+}
+
+.faq-h2{
+    padding: 40px 0;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.faq-list{
+    padding: 40px 0;
+    border-top: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+}
