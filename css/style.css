@@ -38,6 +38,10 @@ body{
     margin: 0 auto;
 }
 
+.img{
+    width: 100%;
+}
+
 /* flex-utilities */
 
 .flex{
@@ -138,10 +142,6 @@ nav{
     transform: translate(0, 70px);
 }
 
-.hero-img{
-    width: 100%;
-}
-
 .text-box{
     max-width: 30%;
     padding-top: 70px;
@@ -193,7 +193,7 @@ nav{
 }
 .plan-type{
     font-size: 1.5em;
-    padding-bottom: 15px;
+    padding: 30px 0;
 }
 
 .price{
@@ -276,4 +276,73 @@ nav{
     font-weight: bold;
     padding-bottom: 50px;
 }
+
+
+/* partner */
+
+.dropbox-partner{
+    margin: 150px 0;
+}
+
+.img-container{
+    max-width: 60%;
+}
+
+.partner-text-box{
+    max-width: 40%;
+    padding: 60px;
+}
+
+.partner-button{
+    margin: 30px 0;
+}
+
+.partner-button-text{
+    border: 1px solid var(--color-black);
+    padding: 10px;
+    color: var(--color-black);
+}
+
+/* business advantages */
+
+.section-title{
+    font-size: 2.8em;
+    padding-bottom: 50px;
+}
+
+.section-container{
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.figure-container{
+    width: 100%;
+}
+
+.business-section{
+    width: calc(100% / 3 - 40px);
+}
+
+.section-h4{
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.learn-more{
+    margin: 150px 0;
+}
+
+.learn-more-h2{
+    font-size: 2.5em;
+    max-width: 60%;
+    padding-bottom: 40px;
+}
+
+.learn-more-button{
+    text-decoration: underline;
+    color: var(--color-button);
+}
+
+/* affiliate names */
 
