@@ -33,7 +33,7 @@ body{
     background-color: var(--color-hero);
 }
 
-.hero-container, .hero-title, .wrapper, .enterprise-box, .free-trial-section, .faq{
+.hero-container, .hero-title, .wrapper, .enterprise-box, .free-trial-section, .faq, .footer-container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -47,33 +47,29 @@ body{
 .flex{
     display: flex;
 }
-
 .j-between{
     justify-content: space-between;
 }
-
 .align-center{
     align-items: center;
 }
-
 .content-center{
     align-content: center;
 }
-
 .f-wrap{
     flex-wrap: wrap;
 }
-
 .f-column{
     flex-direction: column;
 }
-
 .f-end{
     justify-content: flex-end;
 }
-
 .f-row{
     flex-direction: row;
+}
+.align-center{
+    align-items: center;
 }
 
 /* nav */
@@ -501,28 +497,69 @@ nav{
     width: 40%;
 }
 .button-text{
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: var(--color-white);
     color: var(--color-black);
 }
 
 /* faq section */
 .faq{
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
+    margin: 5% auto;
 }
 .faq-setup{
+    width: 80%;
     margin-left: 10%;
 }
-
 .faq-h2{
-    padding: 40px 0;
+    padding: 50px 0;
     font-size: 2.5em;
     font-weight: bolder;
+    border-bottom: 1px solid var(--color-black);
 }
 .faq-list{
-    padding: 40px 0;
-    border-top: 1px solid var(--color-black);
+    padding: 30px 0;
     border-bottom: 1px solid var(--color-black);
+    font-weight: bold;
+}
+.faq-question:after{
+    content: "\02C7";
+    font-size: 2.5em;
+    transform: translate(-50px, 10px);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--color-black);
+}
+.footer-container{
+    padding: 5% 0;
+    column-gap: 20px;
+}
+.footer-list{
+    width: calc(100% / 5 - 20px);
+}
+.footer-list *{
+    color: var(--color-white);
+    padding: 10px 0;
+}
+.bottom-footer{
+   margin-top: 10%; ;
+   padding: 0 40px 20px 0;
+}
+.line-footer{
+    border-bottom: 1px solid var(--color-white);
+    margin-bottom: 50px;
+}
+.fa-earth-europe{
+    color: var(--color-white);
+    opacity: 50%;
+    margin-right: 5px;
+}
+#lang{
+    background-color: var(--color-black);
+    border: none;
+    color: var(--color-white);
+    font-size: 1em;
+    opacity: 50%;
 }
