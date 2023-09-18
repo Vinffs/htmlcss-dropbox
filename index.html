@@ -17,7 +17,7 @@
 <body>
     <!-- header fixed -->
     <header>
-        <nav class="flex j-between nav-color ">
+        <nav class="flex j-between">
             <!-- left-side -->
             <div class="left-side-header flex align-center">
                 <div>
@@ -40,30 +40,33 @@
             </div>
         </nav>
 
-        <!-- div.hero -->
-        <div class="hero">
-            <h2 class="hero-title">Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h2>
-            <div class="hero-container flex">
-                <div class="flex f-column text-box">
-                    <p class="hero-paragraph">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
-                        accessibili dallo stesso posto.
-                        Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo
-                        intelligente e integrato per ottimizzare il fluso di lavoro esistente.
-                    </p>
-                    <div><a class="blue-button action" role="button" href="">Inizia la tua prova gratuita</a></div>
-                    <div>Annulla in qualsiasi momento</div>
-                    <div><i class="fa-solid fa-arrow-down fa-2xl"></i></div>
-                </div>
-                <div class="hero-img-container flex f-column f-end">
-                    <img class="img" src="img/jumbo.png" alt="">
+        <!-- hero -->
+        <div class="hero ">
+            <div class="container">
+                <h2 class="hero-title">Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h2>
+                <div class="flex">
+                    <div class="flex f-column text-box content-center j-around">
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
+                            accessibili dallo stesso posto.
+                            Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo
+                            intelligente e integrato per ottimizzare il fluso di lavoro esistente.
+                        </p>
+                        <div><a class="blue-button action" role="button" href="">Inizia la tua prova gratuita</a></div>
+                        <div>Annulla in qualsiasi momento</div>
+                        <div><i class="fa-solid fa-arrow-down fa-2xl"></i></div>
+                    </div>
+                    <div class="hero-img-container flex f-column f-end">
+                        <img class="img" src="img/jumbo.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- wrapper -->
-    <div class="wrapper">
+    <div class="container-small">
         <main>
+            <!-- monthly or yearly plan -->
             <div class="monthly-annual">
                 <h2 class="business-text">Trova il piano business che fa per te</h2>
                 <div class="payment-box">
@@ -75,7 +78,7 @@
             </div>
 
             <!-- div.bussiness-options -->
-            <div class="business-options flex f-wrap j-between">
+            <div class="flex j-between">
                 <div class="card">
                     <div class="option-header"><i class="fa-solid fa-user"></i> Singolo</div>
                     <div class="card-padding">
@@ -101,7 +104,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button action" role="button" href="">Prova gratis
+                        <div class="blue-button action"><a class="blue-button" role="button" href="">Prova gratis
                                 per 30 giorni</a></div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
@@ -145,7 +148,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button action" role="button" href="">Prova gratis
+                        <div class="blue-button action"><a class="blue-button" role="button" href="">Prova gratis
                                 per 30 giorni</a></div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
@@ -201,8 +204,8 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button action" role="button"
-                                href="">Contattaci</a></div>
+                        <div class="blue-button action"><a class="blue-button" role="button" href="">Contattaci</a>
+                            </div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
                         <div class="best-features">
@@ -225,11 +228,12 @@
                     </div>
                 </div>
             </div>
+            <!-- enterprise box -->
             <div class="enterprise-box">
                 <div class="enterprise"><i class="fa-solid fa-hotel"></i> Team</div>
                 <div class="flex j-between padding">
                     <div class="setup">
-                        <h3 class="plan-type h3-team">Enterprise</h3>
+                        <h3 class="plan-type">Enterprise</h3>
                         <div class="contact-office">Contatta l'ufficio vendite per i prezzi</div>
                         <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
                             su qualsiasi scala.</p>
@@ -240,6 +244,7 @@
                 </div>
             </div>
 
+            <!-- become a partner -->
             <div class="dropbox-partner flex">
                 <div class="img-container flex">
                     <img class="img" src="img/partner.png" alt="partner">
@@ -257,7 +262,7 @@
             <!-- section - title -->
             <h2 class="section-title">Esegui pi&ugrave; operazioni con Dropbox Business</h2>
             <!-- div.dropbox-business -->
-            <div class="flex f-wrap section-container ">
+            <div class="flex f-wrap section-container j-between">
                 <!-- div.business-features FLEXED-->
                 <section class="business-section">
                     <!-- options -->
@@ -332,34 +337,29 @@
                     </div>
                 </section>
 
-                <!-- div.learn-more -->
-                <div>
-                    <h3></h3>
+                <!-- learn more -->
+                <div class="learn-more">
+                    <h2 class="learn-more-h2">Pi&ugrave; di 500.000 team utilizzano Dropbox Business</h2>
+                    <div><a class="learn-more-button" href="">Scopri di pi&ugrave; sui nostri clienti</a></div>
                 </div>
-            </div>
-
-            <!-- learn more -->
-            <div class="learn-more">
-                <h2 class="learn-more-h2">Pi&ugrave; di 500.000 team utilizzano Dropbox Business</h2>
-                <div><a class="learn-more-button" href="">Scopri di pi&ugrave; sui nostri clienti</a></div>
             </div>
         </main>
     </div>
 
-    <!-- affiliate-names -->
+    <!-- affiliate-brands -->
     <aside class="affiliate-names flex f-wrap">
         <!-- right-box -->
         <div class="right-box flex f-wrap">
             <div class="box-setup">
                 <div class="logo-box-hover box-color-one">
-                    <div class="logo-box box-color-one">
+                    <div class="box-color-one logo-box flex j-center align-center box-hover">
                         <img class="logo-img" src="img/designit.svg" alt="designit-logo">
                     </div>
                 </div>
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-two">
-                    <div class="logo-box box-color-two">
+                    <div class="logo-box box-color-two flex j-center align-center box-hover">
                         <img class="logo-img" src="img/arizona_state_university.svg" alt="arizona-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -367,7 +367,7 @@
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-three">
-                    <div class="logo-box box-color-three">
+                    <div class="logo-box box-color-three flex j-center align-center box-hover">
                         <img class="logo-img" src="img/university_of_florida.svg" alt="florida-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -375,7 +375,7 @@
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-four">
-                    <div class="logo-box box-color-four">
+                    <div class="logo-box box-color-four flex j-center align-center box-hover">
                         <img class="logo-img" src="img/topps.svg" alt="topps-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -387,10 +387,10 @@
         <div class="center-box flex">
             <div class="box-setup-five">
                 <div class="logo-box-hover box-color-five">
-                    <div class="logo-box-five box-color-five f-column row-gap">
+                    <div class="logo-box-five box-color-five flex f-column box-hover">
                         <img class="logo-img-five" src="img/designit.svg" alt="designit-logo">
                         <div class="line-five"></div>
-                        <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora
+                        <p class="scroll-y">"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora
                             molte soluzioni sono compatibili con queste esigenze, ma nessuna &egrave; facile quanto
                             Dropbox e Dropbox Paper. Ora molte soluzione sono compatibili con queste esigenze, ma
                             nessuna &egrave; facile quanto Dropbox Paper".</p>
@@ -404,7 +404,7 @@
         <div class="left-box flex f-wrap">
             <div class="box-setup">
                 <div class="logo-box-hover box-color-six">
-                    <div class="logo-box box-color-six">
+                    <div class="logo-box box-color-six flex j-center align-center box-hover">
                         <img class="logo-img" src="img/world_bicycle_relief.svg" alt="world-bicycle-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -412,7 +412,7 @@
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-seven">
-                    <div class="logo-box box-color-seven">
+                    <div class="logo-box box-color-seven flex j-center align-center box-hover">
                         <img class="logo-img" src="img/hearst_corp.svg" alt="hearts-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -420,7 +420,7 @@
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-eight">
-                    <div class="logo-box box-color-eight">
+                    <div class="logo-box box-color-eight flex j-center align-center box-hover">
                         <img class="logo-img" src="img/lonely_planet.svg" alt="lonely-planet-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -428,7 +428,7 @@
             </div>
             <div class="box-setup">
                 <div class="logo-box-hover box-color-nine">
-                    <div class="logo-box box-color-nine">
+                    <div class="logo-box box-color-nine flex j-center align-center box-hover">
                         <img class="logo-img" src="img/clear_channel.svg" alt="clear-channel-logo">
                     </div>
                     <!-- <img class="logo-img" src="img/designit.svg" alt="designit-logo"> -->
@@ -439,38 +439,47 @@
 
     <!-- free trial -->
     <div class="trial">
-        <section class="free-trial-section flex">
+        <section class="free-trial-section flex j-between align-center content-center">
             <div class="left-box-trial">
                 <h2 class="trial-h2">Porta Dropbox Business nella tua azienda.</h2>
             </div>
-            <div class="right-box-trial" role="button">
+            <div class="right-box-trial">
                 <a class="button-text" href="">Inizia la tua prova gratuita</a>
             </div>
         </section>
     </div>
 
     <!-- faq -->
-    <div class="faq">
+    <div class="faq container-small">
         <section class="faq-setup">
             <h2 class="faq-h2">Domande Frequenti</h2>
-            <details class="faq-list">
-                <summary class="faq-question flex j-between align-center">Qual &egrave; la differenza tra Dropbox
-                    Business Standard e Dropbox Business Advanced?</summary>
+            <details class="border">
+                <summary class="faq-question flex j-between align-center">
+                    <span class="faq-list">Qual &egrave; la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint provident est quaerat quas eos neque fuga vitae voluptates magni.</p>
             </details>
-            <details class="faq-list">
-                <summary class="faq-question flex j-between align-center">Qual &egrave; la differenza tra Dropbox
-                    Business Standard e Dropbox Business Advanced?</summary>
+            <details class="border">
+                <summary class="faq-question flex j-between align-center">
+                    <span class="faq-list">Qual &egrave; la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint provident est quaerat quas eos neque fuga vitae voluptates magni.</p>
             </details>
-            <details class="faq-list">
-                <summary class="faq-question flex j-between align-center">Qual &egrave; la differenza tra Dropbox
-                    Business Standard e Dropbox Business Advanced?</summary>
+            <details class="border">
+                <summary class="faq-question flex j-between align-center">
+                    <span class="faq-list">Qual &egrave; la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span>
+                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                </summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sint provident est quaerat quas eos neque fuga vitae voluptates magni.</p>
             </details>
         </section>
     </div>
 
     <!-- footer -->
     <footer>
-        <div class="footer-container flex j-between f-wrap">
+        <div class="container flex j-between">
             <ul class="footer-list">
                 <li>
                     <h2 class="list-title">Dropbox</h2>
@@ -521,24 +530,21 @@
                 <li><a href="">Sicurezza</a></li>
                 <li><a href="">Funzioni</a></li>
             </ul>
-            <div class="bottom-footer">
-                <div class="line-footer"></div>
-                <div>
-                    <i class="fa-solid fa-earth-europe"></i>
-                    <select name="languages" id="lang">
-                        <option value="italian">Italiano</option>
-                        <option value="german">Deutsch</option>
-                        <option value="spanish">Espa&ntilde;ol</option>
-                        <option value="french">Fran&ccedil;ais</option>
-                    </select>
-                </div>
+        </div>
+        <div class="bottom-footer container">
+            <div class="line-footer"></div>
+            <div>
+                <i class="fa-solid fa-earth-europe"></i>
+                <select name="languages" id="lang">
+                    <option value="italian">Italiano</option>
+                    <option value="german">Deutsch</option>
+                    <option value="spanish">Espa&ntilde;ol</option>
+                    <option value="french">Fran&ccedil;ais</option>
+                </select>
             </div>
         </div>
 
     </footer>
-
-
-
 </body>
 
 </html>
