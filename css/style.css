@@ -523,6 +523,7 @@ footer{
 }
 
 /* main */
+
 .beige{
     background-color: var(--background);
 }
@@ -552,6 +553,9 @@ footer{
 .help-card{
     width: 30%;
 }
+.help-menu{
+    padding-bottom: 50px;
+}
 .help-card-img-container{
     width: 100%;
     display: block;
@@ -570,4 +574,21 @@ footer{
     padding: 20px 0;
     margin-bottom: 10px;
     border-bottom: 1px solid var(--border);
+}
+
+/* product cards */
+.product-title{
+    text-align: center;
+    margin: 50px 0;
+}
+.product-title h2{
+    font-size: 2.5em;
+}
+.product-card{
+    width: 25%;
+    margin: 5px 0px 30px 0;
+}
+.product-card *{
+    padding: 5px;
+    color: var(--color-black);
 }
