@@ -17,25 +17,25 @@
 <body>
     <!-- header fixed -->
     <header>
-        <nav class="flex j-between">
+        <nav class="flex j-between nav-list">
             <!-- left-side -->
             <div class="left-side-header flex align-center">
                 <div>
-                    <h1 class="flex content-center"><img src="img/logo-small.png" alt="logo-dropbox"></h1>
+                    <h1 class="flex content-center"><img id="logo" src="img/logo-small.png" alt="logo-dropbox"></h1>
                 </div>
                 <ul class="flex black-text align-center">
-                    <li><a href="">Perch&egrave; Dropbox</a></li>
-                    <li><a href="">Funzioni</a></li>
-                    <li><a href="">Piani e Prezzi</a></li>
+                    <li class="mouse-action"><a href="">Perch&egrave; Dropbox</a></li>
+                    <li class="mouse-action"><a href="">Funzioni</a></li>
+                    <li class="mouse-action"><a href="">Piani e Prezzi</a></li>
                 </ul>
             </div>
             <!-- right-side -->
             <div class="right-side-header flex align-center">
                 <ul class="flex black-text">
-                    <li><a href="">Supporto</a></li>
-                    <li><a href="">Contatta l'ufficio vendite</a></li>
-                    <li><a href="">Accedi</a></li>
-                    <li class="blue-button"><a class="white-text" id="inizia" href="">Inizia</a></li>
+                    <li class="mouse-action"><a href="">Supporto</a></li>
+                    <li class="mouse-action"><a href="">Contatta l'ufficio vendite</a></li>
+                    <li class="mouse-action"><a href="">Accedi</a></li>
+                    <li class="inizia-button"><a class="white-text" id="inizia" href="">Inizia</a></li>
                 </ul>
             </div>
         </nav>
@@ -51,9 +51,9 @@
                             Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro: &egrave; un modo
                             intelligente e integrato per ottimizzare il fluso di lavoro esistente.
                         </p>
-                        <div><a class="blue-button action" role="button" href="">Inizia la tua prova gratuita</a></div>
+                        <div><a class="blue-button action white-text" role="button" href="">Inizia la tua prova gratuita</a></div>
                         <div>Annulla in qualsiasi momento</div>
-                        <div><a class="arrow-down" href="#advantages"><i class="fa-solid fa-arrow-down fa-2xl"></i></a></div>
+                        <div><a class="arrow-down" href="#free-trial"><i class="fa-solid fa-arrow-down fa-2xl"></i></a></div>
                     </div>
                     <div class="hero-img-container flex f-column f-end">
                         <img class="img" src="img/jumbo.png" alt="">
@@ -104,7 +104,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button" role="button" href="">Prova gratis
+                        <div class="blue-button action"><a class="white-text" role="button" href="">Prova gratis
                                 per 30 giorni</a></div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
@@ -148,7 +148,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button" role="button" href="">Prova gratis
+                        <div class="blue-button action"><a class="white-text" role="button" href="">Prova gratis
                                 per 30 giorni</a></div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
@@ -204,7 +204,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="blue-button action"><a class="blue-button" role="button" href="">Contattaci</a>
+                        <div class="blue-button action"><a class="white-text" role="button" href="">Contattaci</a>
                             </div>
                         <div class="buy-now">oppure <a class="buy-action" href="">acquista ora</a></div>
                         <div class="line"></div>
@@ -238,7 +238,7 @@
                         <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
                             su qualsiasi scala.</p>
                     </div>
-                    <div class="setup-bis"><a class="blue-button contact" role="button" href="">Contatta l'ufficio
+                    <div class="setup-bis"><a class="blue-button contact white-text" role="button" href="">Contatta l'ufficio
                             vendite</a>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
             </div>
 
             <!-- section - title -->
-            <h2 class="section-title" id="advantages">Esegui pi&ugrave; operazioni con Dropbox Business</h2>
+            <h2 class="section-title">Esegui pi&ugrave; operazioni con Dropbox Business</h2>
             <!-- div.dropbox-business -->
             <div class="flex f-wrap section-container j-between">
                 <!-- div.business-features FLEXED-->
@@ -438,7 +438,7 @@
     </aside>
 
     <!-- free trial -->
-    <div class="trial">
+    <div class="trial" id="free-trial">
         <section class="free-trial-section flex j-between align-center content-center">
             <div class="left-box-trial">
                 <h2 class="trial-h2">Porta Dropbox Business nella tua azienda.</h2>

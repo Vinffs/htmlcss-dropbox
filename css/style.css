@@ -21,6 +21,8 @@
     --color-box-7: #B4D0E6;
     --color-box-8: #0E2581;
     --color-box-9: #FED831;
+    --button-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px;
+    --brightness: brightness(85%);
 }
 html{
     scroll-behavior: smooth;
@@ -46,10 +48,9 @@ body{
 }
 .blue-button{
     background-color: var(--color-button);
-    color: var(--color-white);
 }
 .action{
-    padding: 10px;
+    padding: 10px 10px;
     text-align: center;
 }
 .black-text *{
@@ -60,6 +61,10 @@ body{
 }
 .trial{
     background-color: var(--color-hero);
+}
+
+.box-hover:hover, .blue-button:hover, .blue-button.action:hover{
+    filter: var(--brightness);
 }
 
 /* flex-utilities */
@@ -102,10 +107,30 @@ nav{
     z-index: 1000;
     background-color: var(--color-white);
     box-shadow: 0 0 10px var(--color-black);
+    height: 50px;
 }
-.left-side-header *, .right-side-header *{
+#logo{
     padding: 5px;
 }
+.mouse-action, #inizia, .inizia-button{
+    padding: 0px 10px;
+    height: 50px;
+    line-height: 50px;
+}
+#inizia{
+    background-color: var(--color-button);
+    padding: 5px 10px;
+}
+.mouse-action:hover{
+    background-color: var(--color-light-grey);
+}
+#inizia:hover, .inizia-button:hover{
+    background-color: var(--color-button);
+}
+.right-side-header .mouse-action:hover{
+    border-bottom: 2px solid var(--color-black);
+}
+
 
 /* hero */
 .hero-position{
@@ -223,8 +248,8 @@ main{
     font-weight: bold;
     padding-bottom: 50px;
 }
-#advantages{
-    scroll-margin-top: 100px;
+#free-trial{
+    scroll-margin-top: 50px;
 }
 
 /* partner */
@@ -245,6 +270,10 @@ main{
     border: 1px solid var(--color-black);
     padding: 10px;
     color: var(--color-black);
+}
+.partner-button:hover{
+    box-shadow: var(--button-shadow);
+    display: inline-flex;
 }
 
 /* business advantages */
@@ -321,15 +350,10 @@ main{
 }
 .scroll-y{
     overflow-y: scroll;
-    max-height: 100px;
+    max-height: 150px;
 }
 
-/* box colors + hover */
-
-/* brightness hover */
-.box-hover:hover{
-    filter: brightness(80%);
-}
+/* box colors */
 /* box 1 */
 .box-color-one{
     background-color: var(--color-box-1);
@@ -384,6 +408,9 @@ main{
     padding: 10px 30px;
     background-color: var(--color-white);
     color: var(--color-black);
+}
+.button-text:hover{
+    box-shadow: var(--button-shadow);
 }
 
 /* faq section */
