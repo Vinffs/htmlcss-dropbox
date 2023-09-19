@@ -491,3 +491,52 @@ footer{
     opacity: 50%;
 }
 
+
+/* help page */
+
+:root{
+    --left-hero: #1E1919;
+    --right-hero: #B4C8E1;
+    --background: #F7F5F2;
+    --border: #BAB7B2;
+}
+.no-margin{
+    margin: 0 auto;
+}
+.help-hero{
+    padding-top: 50px;
+}
+.hero-box{
+    width: calc(100% / 2);
+    height: 10vw;
+    line-height: 10vw;
+    text-align: center;
+}
+
+.help-center1{
+    background-color: var(--left-hero);
+    color: var(--color-white);
+    font-size: 1.5em;
+}
+.help-center2{
+    background-color: var(--right-hero);
+}
+.beige{
+    background-color: var(--background);
+}
+.search-bar{
+    margin: 40px 0;
+    width: 100%;
+    min-height: 40px;
+    background-color: var(--color-white);
+    font-size: 1.4em;
+    border: 0.5px solid var(--border);
+    padding: 10px 5px;
+}
+
+.search-icon{
+    position: relative;
+    left: 1170px;
+    bottom: 70px;
+    width: 20px;
+}
