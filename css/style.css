@@ -494,6 +494,7 @@ footer{
 
 /* help page */
 
+
 /* general */
 :root{
     --left-hero: #1E1919;
@@ -591,4 +592,32 @@ footer{
 .product-card *{
     padding: 5px;
     color: var(--color-black);
+}
+
+/* popular articles */
+.popular-articles{
+    background-color: var(--left-hero);
+    color: var(--color-white);
+}
+.articles{
+    width: 20%;
+}
+.top-articles{
+    margin: 0 20px;
+}
+.popular-articles h3{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 50px 0;
+}
+.top-articles h5{
+    font-size: 1.2em;
+}
+.top-articles * {
+    margin-bottom: 30px;
+    line-height: normal;
+}
+.view-more{
+    color: var(--color-white);
+    text-decoration: underline;
 }
