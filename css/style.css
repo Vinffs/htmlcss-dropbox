@@ -631,3 +631,40 @@ footer{
 .top-posts p{
     font-size: 0.8em;
 }
+
+.beige.community{
+    padding: 50px 0;
+}
+
+/* learn-more */
+.beige.section-learn{
+    padding-bottom: 50px;
+}
+.learn-more-section{
+    width: calc(100% / 3);
+    background-color: var(--color-white);
+    padding: 50px 0;
+    border-right: 1px solid var(--border);
+}
+.learn-more-img{
+    width: 100%;
+}
+.paragraph{
+    padding: 0 5px;
+}
+.paragraph p{
+    text-align: center;
+}
+.learn-more-p{
+    font-size: 1.2em;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.learn-more-a{
+    color: var(--color-black);
+}
+.learn-more-section.no-border{
+    border: none;
+}
