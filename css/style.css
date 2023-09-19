@@ -131,6 +131,27 @@ nav{
     border-bottom: 2px solid var(--color-black);
 }
 
+/* nav-submenu */
+.menu{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    left: 0;
+    display: none;
+    background-color: var(--color-light-grey);
+    color: var(--color-black);
+    min-width: 250px;
+    line-height: normal;
+    padding: 10px 10px;
+}
+.submenu-list *{
+    padding: 10px 0;
+}
+
+.menu:hover .submenu{
+    display: block;
+}
 
 /* hero */
 .hero-position{
@@ -433,6 +454,10 @@ main{
     margin-right: 20px;
 }
 
+.border p{
+    margin-bottom: 10px;
+}
+
 /* footer */
 footer{
     background-color: var(--color-black);
@@ -465,3 +490,4 @@ footer{
     font-size: 1em;
     opacity: 50%;
 }
+
